@@ -3,10 +3,10 @@
 #include <FirebaseESP32.h>
 #include <DHT.h>
 
-#define FIREBASE_HOST "weather-esp-3d9e3-default-rtdb.firebaseio.com"  // رابط قاعده البيانات
-#define FIREBASE_AUTH "UFNCs86TeyfiMvNxNq2sgbwBbjzzHsjWr7i7BX9J"       // الرمز السري لقاعده البيانات
-#define WIFI_SSID "Hamza (2) iPhone"  //Hamza (2) iPhone                                 // اسم الشبكه
-#define WIFI_PASSWORD "11111111"      //11111111                                // كلمه السر
+#define FIREBASE_HOST "********************.firebaseio.com"  // رابط قاعده البيانات
+#define FIREBASE_AUTH "*****************"                    // الرمز السري لقاعده البيانات
+#define WIFI_SSID "*****************"                       // اسم الشبكه
+#define WIFI_PASSWORD "***************"                     // كلمه السر
 
 #define DHTPIN 18      // منفذ الاردوينو المتصل بالحساس
 #define DHTTYPE DHT11  // اسم موديل الحساس المستخدم
